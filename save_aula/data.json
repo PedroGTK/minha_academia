@@ -1,0 +1,22 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "name": "savio",
+      "avatar_url": "https:\\\\img.com",
+      "birth": 857433600000,
+      "gender": "Não Binário",
+      "services": "crosfit,musculation",
+      "created_at": 1718478874088
+    },
+    {
+      "id": 2,
+      "name": "FErnando ",
+      "avatar_url": "https:\\\\img.com",
+      "birth": 872899200000,
+      "gender": "Transgênero",
+      "services": "crosfit,musculation",
+      "created_at": 1718480616959
+    }
+  ]
+}
