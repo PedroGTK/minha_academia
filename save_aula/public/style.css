@@ -177,6 +177,7 @@ a.button{
     text-align: center;
     text-decoration: none;
 }
+
 @keyframes up {
   from{
     opacity: 0;

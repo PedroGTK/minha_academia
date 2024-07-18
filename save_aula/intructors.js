@@ -53,11 +53,14 @@ exports.post = function(req,res){
         return instructor.id == id
     })
 
-    if(!foundInstructor) return res.send ("instrutor não encontrado")
+    if(!foundInstructor) 
+        return res.send ("instrutor não encontrado")
 
-       
+       const instructor = {
+        ...foundInstructor,
+       }
 
-        return res.render ("instructors/edit",{instructor:foundInstructor})
+        return res.render ("instructors/edit",{instructor})
    }
 
 
