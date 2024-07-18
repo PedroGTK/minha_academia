@@ -60,7 +60,7 @@ exports.post = function(req,res){
         ...foundInstructor,
        }
 
-        return res.render ("instructors/edit",{instructor})
+        return res.render ("instructors/edit",{})
    }
 
 
